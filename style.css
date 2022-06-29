@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Trade+Winds&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background-image: url(green.png);
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.container{
+	width: 100%;
+	height: 100%;
+}
+
+.cv{
+	width:600px;
+	margin: 5px auto;
+	background-image: url(bgabu.png);
+	padding: 15px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.125), -1px -1px 2px rgba(0,0,0,0.125),
+}
+
+.cv .profile_info {
+	text-align: center;
+}
+
+.cv .profile_info .profile_img{
+	width: 150px;
+	margin: 0 auto 5px;
+}
+
+.cv .profile_info .profile_img img{
+	display: block;
+	width: 100%;
+}
+
+.cv .profile_info .profile_data .name{
+	font-size: 20px;
+	margin-bottom: 5px;
+	font-family: 'Trade Winds', cursive;
+}
+
+.cv .profile_info .profile_data {
+	margin: 50px 50px;
+}
+
+.cv .profile_info .view_more a{
+	display: block;
+	background: #a4e0bf;
+	padding: 10px 15px;
+	width: 150px;
+	margin: 10px auto;
+	border-radius: 3px;
+}
+
+.profile_info .view_more a:hover{
+	background: #fff;
+	color: #5558c9;
+	opacity: 0.5;
+}
+
+.cv .title{
+	font-size: 16px;
+	font-weight: 800;
+	color: #5558c9;
+	margin-bottom: 15px;
+}
+
+.skills ul {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.skills ul li {
+	padding: 0 5px 10px;
+	width: 33.32%;
+	height: 100px;
+}
+.skills ul li .skill_item {
+	background:#f2f4f5;
+	width: 100%;
+	height: 100%;
+	border-radius: 3px;
+	text-align: center;
+	padding: 15px 10px;
+}
+
+.skills ul li .skill_item.html .icon {
+	background: url('html copy.png') no-repeat -7px -6px;
+	width: 36px;
+	height: 50px;
+	margin: 0 auto 5px;
+}
+
+.skills ul li .skill_item.css .icon{
+	background: url('css copy.png') no-repeat -8px -7px;
+	width: 36px;
+	height: 50px;
+	margin:  0 auto 5px;
+}
+.skills ul li .skill_item.csharp .icon {
+	background: url('csharp copy.png') no-repeat -2px -2px;
+	width: 42px;
+	height: 50px;
+	margin:  0 auto 5px;
+}
+.skills ul li .skill_item.word .icon{
+	background: url('msword copy.png') no-repeat -2px -5px;
+	width: 36px;
+	height: 50px;
+	margin:  0 auto 5px;
+}
+.skills ul li .skill_item.ppt .icon{
+	background: url('ppt copy.png') no-repeat -2px -2px;
+	width: 36px;
+	height: 50px;
+	margin:  0 auto 5px;
+}
+
+
+.full_info1{
+	padding-top: 15px;
+	height:295px;
+	overflow: auto;
+}
+.full_info1 .title{
+	padding-top: 15px;
+}
+.info_wrap{
+	padding-left: 5px;
+}
+.info_wrap ul li{
+	margin-bottom: 10px;
+}
+.info_wrap .sub_title{
+	font-size: 18px;
+	font-weight: 600;
+	color: #779ecb;
+}
+.info_wrap .info_title{
+	padding-left: 15px;
+	padding-top: 10px;
+}
+.info_wrap .info_item{
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.info_wrap .info_item .data{
+	font-size: 12px;
+	padding-left: 15px;
+}
